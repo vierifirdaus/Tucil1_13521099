@@ -1,5 +1,5 @@
-# Word Search Puzzle Solver
-Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian *Word Search Puzzle* dengan Algoritma *Brute Force*".
+# Penyelesaian **Permainan Kartu 24** dengan Algoritma Brute Force
+Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **Permainan Kartu 24** dengan Algoritma Brute Force *Brute Force*".
 
 ## Daftar Isi
 * [Deskripsi Singkat Program](#deskripsi-singkat-program)
@@ -10,60 +10,13 @@ Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian *Wo
 * [Author](#author)
 
 ## Deskripsi Singkat Program
-Program untuk mencari semua solusi kata pada *word search puzzle* dengan menggunakan algoritma *brute force* serta ADT Matriks dan ADT Trie. Program menerima masukan dalam bentuk file teks dalam format `.txt` yang berisi grid karakter serta kumpulan kata yang hendak dicari (dipisahkan dengan baris kosong). Kemudian, program akan mengeluarkan hasil pencarian tersebut dalam bentuk command prompt dengan kata yang ditemukan akan diberi warna. Program dibangun dengan menggunakan bahasa Java.
+Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algoritma brute force. Program menerima masukan berupa 4 kartu( 2-9,A, J, Q, K), kemudian program akan mengeluarkan solusi dari permainan 24 dalam bentuk command prompt. Program dibangun dengan menggunakan bahasa C++.
 
-## Struktur Program
-```bash
-.
-│   .gitignore
-│   extract.bat
-│   extract.sh
-│   README.md
-│   run.bat
-│   run.sh
-│   word-search-puzzle-solver.jar
-│   
-├───doc
-│       Tugas Kecil 1 IF2211 Strategi Algoritma Penyelesaian Word Search Puzzle dengan Algoritma Brute Force.pdf
-│       
-├───src
-│   │   App.java
-│   │
-│   ├───ConsoleWriter
-│   │       ConsoleWriter.java
-│   │
-│   ├───DataStructure
-│   │   ├───Trie
-│   │   │       Trie.java
-│   │   │       TrieNode.java
-│   │   │
-│   │   └───WordGrid
-│   │           Vector.java
-│   │           WordGrid.java
-│   │           WordGridStruct.java
-│   │
-│   └───FileReader
-│           FileReader.java
-│
-└───test
-        large_1.txt
-        large_2.txt
-        large_3.txt
-        medium_1.txt
-        medium_2.txt
-        medium_3.txt
-        small_1.txt
-        small_2.txt
-        small_3.txt
-```
-
-## Requirement Program
-* Java Virtual Machine versi 11 atau lebih baru.
 
 ## Cara Kompilasi Program
-1. Pastikan Java Virtual Machine versi 11 atau lebih baru sudah terpasang pada mesin eksekusi (Anda dapat mengecek versi Java Virtual Machine dengan menjalan command `java -version` pada command prompt).
-2. Jalankan command `./extract` atau `./extract.bat` pada command prompt jika Anda menggunakan Windows dan jalankan command `./extract.sh` pada command prompt jika Anda menggunakan Linux atau macOS.
-3. Jika berhasil dikompilasi, maka akan terdapat folder `bin` pada directory program.
+1. Pastikan directory sudah terletak di folder yang sama dengan code.cpp apabila belum jalankan commad `cd src`
+2. Jalankan command `g++ code.cpp -o code` untuk mengkompilasi kode, dan jalankan `./code` untuk menjalankan code 
+3. Jika berhasil dij, diakhir akan ditanya apakah akan disimpan, apabila user akan menyimpan solusi, solusi akan tersimpan di folder 
 
 ## Cara Menjalankan Program
 1. Pastikan Anda telah berhasil melakukan kompilasi pada program.
