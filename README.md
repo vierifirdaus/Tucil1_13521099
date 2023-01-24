@@ -3,8 +3,7 @@ Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **P
 
 ## Daftar Isi
 * [Deskripsi Singkat Program](#deskripsi-singkat-program)
-* [Struktur Program](#struktur-program)
-* [Requirement Program](#struktur-program)
+* [Requirement Program](#requirement-program)
 * [Cara Kompilasi Program](#cara-kompilasi-program)
 * [Cara Menjalankan Program](#cara-menjalankan-program)
 * [Author](#author)
