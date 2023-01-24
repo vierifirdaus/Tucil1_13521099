@@ -10,7 +10,7 @@ Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **P
 * [Author](#author)
 
 ## Deskripsi Singkat Program
-Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algoritma brute force. Program menerima masukan berupa 4 kartu( 2-9,A, J, Q, K) atau program akan melakukan generate random terhadap input, kemudian program akan mengeluarkan solusi dari permainan 24 dalam bentuk command prompt. Program dibangun dengan menggunakan bahasa C++.
+Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algoritma brute force. Program menerima masukan berupa 4 kartukartu (A, 1-10, J, Q, K, 11, 12, 13) atau program akan melakukan generate random terhadap input, kemudian program akan mengeluarkan solusi dari permainan 24 dalam bentuk command prompt. Program dibangun dengan menggunakan bahasa C++.
 
 ## Reuirement Program
 - gcc version 12.1.0 atau lebih
