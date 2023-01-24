@@ -98,21 +98,37 @@ double f(int i,int j){
 
 void print_solutin(int a,int idx){
     if(a==0){
+        // cout<<"("<<cob[permutation[idx][0]]<<" "<<cop[op[0]]<<" "<<cob[permutation[idx][1]]<<")"<<" "<<cop[op[1]]<<" "<<"("<<cob[permutation[idx][2]]<<" "<<cop[op[2]]<<" "<<cob[permutation[idx][3]]<<")";
+        // cout<<"("<<permutation[idx][0]<<" "<<cop[op[0]]<<" "<<permutation[idx][1]<<")"<<" "<<cop[op[1]]<<" "<<"("<<permutation[idx][2]<<" "<<cop[op[2]]<<" "<<permutation[idx][3]<<")";
+        // solution[cnt_solution]="(" + cob[permutation[idx][0]] + " " + cop[op[0]] + " " + cob[permutation[idx][1]] + ") " + cop[op[1]] + " (" + cob[permutation[idx][2]] + " " + cop[op[2]] + " " + cob[permutation[idx][3]] + ")";
         solution[cnt_solution]="(" + convint[permutation[idx][0]] + " " + cop[op[0]] + " " + convint[permutation[idx][1]] + ") " + cop[op[1]] + " (" + convint[permutation[idx][2]] + " " + cop[op[2]] + " " + convint[permutation[idx][3]]+ ")";
     }
     else if(a==1){
+        // cout<<"(("<<cob[permutation[idx][0]]<<" "<<cop[op[0]]<<" "<<cob[permutation[idx][1]]<<")"<<" "<<cop[op[1]]<<" "<<cob[permutation[idx][2]]<<")"<<" "<<cop[op[2]]<<" "<<cob[permutation[idx][3]];
+        // cout<<"(("<<permutation[idx][0]<<" "<<cop[op[0]]<<" "<<permutation[idx][1]<<")"<<" "<<cop[op[1]]<<" "<<permutation[idx][2]<<")"<<" "<<cop[op[2]]<<" "<<permutation[idx][3];
+        // solution[cnt_solution]="((" + cob[permutation[idx][0]] + " " + cop[op[0]] + " " + cob[permutation[idx][1]] + ") " + cop[op[1]] + " " + cob[permutation[idx][2]] + ") " + cop[op[2]] + " " + cob[permutation[idx][3]];
         solution[cnt_solution]="((" + convint[permutation[idx][0]] + " " + cop[op[0]] + " " + convint[permutation[idx][1]] + ") " + cop[op[1]] + " " + convint[permutation[idx][2]] + ") " + cop[op[2]] + " " + convint[permutation[idx][3]];
     }
     else if(a==2){
+        // cout<<"("<<cob[permutation[idx][0]]<<" "<<cop[op[0]]<<" "<<"("<<cob[permutation[idx][1]]<<" "<<cop[op[1]]<<" "<<cob[permutation[idx][2]]<<"))"<<" "<<cop[op[2]]<<" "<<cob[permutation[idx][3]];
+        // cout<<"("<<permutation[idx][0]<<" "<<cop[op[0]]<<" "<<"("<<permutation[idx][1]<<" "<<cop[op[1]]<<" "<<permutation[idx][2]<<"))"<<" "<<cop[op[2]]<<" "<<permutation[idx][3];
+        // solution[cnt_solution]="(" + cob[permutation[idx][0]] + " " + cop[op[0]] + " (" + cob[permutation[idx][1]] + " " + cop[op[1]] + " " + cob[permutation[idx][2]] + ")) " + cop[op[2]] + " " + cob[permutation[idx][3]];
         solution[cnt_solution]="(" + convint[permutation[idx][0]] + " " + cop[op[0]] + " (" + convint[permutation[idx][1]] + " " + cop[op[1]] + " " + convint[permutation[idx][2]] + ")) " + cop[op[2]] + " " + convint[permutation[idx][3]];
     }
     else if(a==3){
+        // cout<<cob[permutation[idx][0]]<<" "<<cop[op[0]]<<" "<<"(("<<cob[permutation[idx][1]]<<" "<<cop[op[1]]<<" "<<cob[permutation[idx][2]]<<")"<<" "<<cop[op[2]]<<" "<<cob[permutation[idx][3]]<<")";
+        // cout<<permutation[idx][0]<<" "<<cop[op[0]]<<" "<<"(("<<permutation[idx][1]<<" "<<cop[op[1]]<<" "<<permutation[idx][2]<<")"<<" "<<cop[op[2]]<<" "<<permutation[idx][3]<<")";
+        // solution[cnt_solution]=cob[permutation[idx][0]] + " " + cop[op[0]] + " ((" + cob[permutation[idx][1]] + " " + cop[op[1]] + " " + cob[permutation[idx][2]] + ") " + cop[op[2]] + " " + cob[permutation[idx][3]] + ")";
         solution[cnt_solution]=convint[permutation[idx][0]] + " " + cop[op[0]] + " ((" + convint[permutation[idx][1]] + " " + cop[op[1]] + " " + convint[permutation[idx][2]]+ ") " + cop[op[2]] + " " + convint[permutation[idx][3]] + ")";
     }
     else if(a==4){
+        // cout<<cob[permutation[idx][0]]<<" "<<cop[op[0]]<<" "<<"("<<cob[permutation[idx][1]]<<" "<<cop[op[1]]<<" "<<"("<<cob[permutation[idx][2]]<<" "<<cop[op[2]]<<" "<<permutation[idx][3]<<"))";
+        // cout<<permutation[idx][0]<<" "<<cop[op[0]]<<" "<<"("<<permutation[idx][1]<<" "<<cop[op[1]]<<" "<<"("<<permutation[idx][2]<<" "<<cop[op[2]]<<" "<<permutation[idx][3]<<"))";
+        // solution[cnt_solution]=cob[permutation[idx][0]] + " " + cop[op[0]] + " (" + cob[permutation[idx][1]] + " " + cop[op[1]] + " (" + cob[permutation[idx][2]] + " " + cop[op[2]] + " " + cob[permutation[idx][3]] + "))";
         solution[cnt_solution]=convint[permutation[idx][0]] + " " + cop[op[0]] + " (" + convint[permutation[idx][1]] + " " + cop[op[1]] + " (" + convint[permutation[idx][2]]+ " " + cop[op[2]] + " " + convint[permutation[idx][3]]+ "))";
     }
     cnt_solution++;
+    // cout<<endl;
 }
 
 bool cek_in(){
@@ -152,8 +168,7 @@ void per_number(int first,int last){
 void cek_24(){
     for(int j=0;j<cnt_permutation;j++){
         for(int i=0;i<5;i++){
-            if(f(i,j)-24>-0.00000000001 && f(i,j)-24<0.00000000001){
-                // cout<<f(i,j)<<endl;
+            if(f(i,j)==24.0){
                 if(adasolusi==false){
                     cout<<"Berikut adalah solusi dari permainan kartu 24"<<endl;
                 }
@@ -278,7 +293,8 @@ int main(){
         }
     }
     auto akhirsave = std::chrono::high_resolution_clock::now();
-    auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(akhir - awal+akhirsave-awalsave);   
+    auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(akhir - awal+awalsave-akhirsave);   
+    // auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(akhir - awal);   
     cout<<"Waktu eksekusi selama: "<<elapsed.count() * 1e-6<<" milidetik."<<endl;
     
     return 0;

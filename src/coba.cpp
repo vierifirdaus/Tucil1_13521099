@@ -1,15 +1,19 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-
+string tempsave;
 int main() {
-    // Create and open a text file
-    ofstream MyFile("../test/solution.txt");
+    char s;
+    cout<<"Apakah anda ingin menyimpan hasil ke file? (y/n)"<<endl;
+    cin>>s;
+    
+    while(s!='y' && s!='n'){
+        cout<<"Input salah, ulangi"<<endl;
+        cin>>s;
+    }
 
-    // Write to the file
-    MyFile << "Files can be tricky, but it is fun enough!"<<endl;
-    MyFile << "This is the second line.";   
-
-    // Close the file
-    MyFile.close();
+    if(s=='y'){
+        cout<<"Masukkan nama file : ";
+        cin>>tempsave;
+    }
 }
