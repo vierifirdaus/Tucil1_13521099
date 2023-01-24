@@ -10,22 +10,22 @@ Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **P
 * [Author](#author)
 
 ## Deskripsi Singkat Program
-Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algoritma brute force. Program menerima masukan berupa 4 kartu( 2-9,A, J, Q, K), kemudian program akan mengeluarkan solusi dari permainan 24 dalam bentuk command prompt. Program dibangun dengan menggunakan bahasa C++.
+Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algoritma brute force. Program menerima masukan berupa 4 kartukartu (A, 1-10, J, Q, K, 11, 12, 13) atau program akan melakukan generate random terhadap input, kemudian program akan mengeluarkan solusi dari permainan 24 dalam bentuk command prompt. Program dibangun dengan menggunakan bahasa C++.
 
+## Reuirement Program
+- gcc version 12.1.0 atau lebih
 
 ## Cara Kompilasi Program
 1. Pastikan directory sudah terletak di folder yang sama dengan code.cpp apabila belum jalankan commad `cd src`
-2. Jalankan command `g++ code.cpp -o code` untuk mengkompilasi kode, dan jalankan `./code` untuk menjalankan code 
-3. Jika berhasil dij, diakhir akan ditanya apakah akan disimpan, apabila user akan menyimpan solusi, solusi akan tersimpan di folder 
+2. Jalankan command `g++ code.cpp -o code` untuk mengkompilasi kode
 
 ## Cara Menjalankan Program
 1. Pastikan Anda telah berhasil melakukan kompilasi pada program.
-2. Tambahkan file teks dalam format `.txt` yang berisi matriks huruf di dalam *puzzle* (antarhuruf dipisahkan oleh spasi), diikuti satu baris kosong, dan daftar kata-kata yang akan dicari di dalam *puzzle* ke dalam folder `test` pada directory program.
-3. Jalankan command `./run` atau `./run.bat` pada command prompt jika Anda menggunakan Windows dan jalankan command `./run.sh` pada command prompt jika Anda menggunakan Linux atau macOS.
-4. Masukkan nama file teks yang sudah ditambahkan sebelumnya ke dalam input program.
+2. Pastikan Anda telah berada di direktori src, jalankan pada command prompt `./code`
+3. Masukkan input sesuai dengan yang Anda inginkan, lalu akan ditampilkan solusi dari kartu 24
 
 ## Author
-* Nama: Rayhan Kinan Muhannad
-* NIM: 13520065
+* Nama: Vieri Fajar Firdaus
+* NIM: 13521099
 * Prodi/Jurusan: STEI/Teknik Informatika
-* Profile Github: [rayhankinan](https://github.com/rayhankinan)
+* Profile Github: [vierifirdaus](https://github.com/vierifirdaus)
