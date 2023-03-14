@@ -28,3 +28,5 @@ Program untuk mencari semua solusi Permainan Kartu 24 dengan menggunakan algorit
 * NIM: 13521099
 * Prodi/Jurusan: STEI/Teknik Informatika
 * Profile Github: [vierifirdaus](https://github.com/vierifirdaus)
+
+.
