@@ -1,5 +1,5 @@
 # Penyelesaian **Permainan Kartu 24** dengan Algoritma Brute Force
-Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **Permainan Kartu 24** dengan Algoritma Brute Force *Brute Force*".
+Disusun untuk memenuhi Tugas Kecil 1 IF2211 Strategi Algoritma "Penyelesaian **Permainan Kartu 24** dengan Algoritma Brute Force *Brute Force*"..
 
 ## Daftar Isi
 * [Deskripsi Singkat Program](#deskripsi-singkat-program)
